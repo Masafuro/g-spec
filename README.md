@@ -16,10 +16,10 @@ Markdown と G-spec をファイル内で任意に交互に配置でき、その
 ## 使い方
 
 G-spec を記述したファイルを用意し、変換スクリプトを実行すると、  
-Markdown と Mermaid を統合した `flowchart.md` が生成されます。
+gspec.txtからMarkdown と Mermaid を統合した `flowchart.md` が生成されます。
 
 ```
-python gspec_to_mermaid.py input.gspec
+python gen_g-spec.py
 ```
 
 実行すると、Markdown と Mermaid ブロックを組み合わせた出力が作成されます。
